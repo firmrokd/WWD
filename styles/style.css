@@ -1,0 +1,136 @@
+content{
+    max-width: 1600px;
+    margin:  0 auto;
+}
+nav a {
+    text-align: center;
+}
+#hero-msg h1 {
+    text-align: center;
+}
+#hero-msg h4 {
+    text-align: center;
+}
+.button-box {
+    text-align: center;
+}
+main section {
+    text-align: center;
+}
+#background{
+    height: 725px;
+}
+body {
+    background-color: antiquewhite;
+}
+header{
+    background-color: aqua;
+}
+nav a:hover{
+   background-color: black;
+}
+.book{
+    background-color: rgb(174, 178, 184) ;
+}
+.join{
+    background-color: aquamarine;
+}
+.book:hover{
+    background-color: black;
+}
+.join:hover{
+    background-color: chocolate;
+}
+#background{
+    background-color: rgb(217, 255, 127);
+}
+.msg{
+    background-color: rgb(160, 134, 134);
+}
+footer{
+    background-color: aqua;
+}
+nav a{
+    background-color: rgb(100, 99, 99);
+    color: #64a7c2;
+}
+nav a:hover{
+    background-color: #64a7c2;
+    color: #b3a5a5;
+}
+.home-title{
+    background-color: #64a7c2;
+    color: #dad3d3;
+}
+h4{
+    background-color: #64a7c2;
+    color: #000;
+}
+.book{
+    background-color: #64a7c2;
+    color: #000;
+}
+.join{
+    background-color: #64a7c2;
+    color: #000;
+}
+.book:hover {
+    background-color: #64a7c2;
+    color: #000;
+}
+.join:hover{
+    background-color: #64a7c2;
+    color: #000;
+}
+.msg h2{
+    background-color: #64a7c2;
+    color: #000;
+}
+.msg p{
+    background-color: #64a7c2;
+    color: #000;
+}
+footer{
+    background-color: #64a7c2;
+    color: #000;
+}
+footer a{
+    background-color: #64a7c2;
+    color: #000;
+}
+footer a:hover{
+    background-color: #64a7c2;
+    color: #000;
+}
+.logo{
+    width: 80px;
+}
+#hero-img{
+    width: 100%;
+}
+nav a{
+    text-align: center;
+    color: #757dc5;
+    text-decoration: none;
+}
+.book{
+    text-align: center;
+    color: #000;
+    text-decoration: none;
+} 
+.join{
+    text-align: center;
+    color: #000;
+    text-decoration: none;
+}
+footer a{
+    text-align: center;
+    color: #000;
+    text-decoration: none;
+}
+footer p {
+    font-size: 1.2em;
+}    
+footer p a:hover {
+    text-decoration: underline;
+}  
