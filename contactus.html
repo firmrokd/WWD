@@ -15,55 +15,110 @@
         </a>
         <nav>
             <a href="index.html">Home</a>
-            <a href="#">Page 2</a>
+            <a href="Blog.html">Page 2</a>
             <a href="site-plan-rafting.html">Site Plan</a>
             <a href="contactus.html">Contact Us</a>
         </nav>
     </header>
-    <div id="hero">
-        <div id="hero-box">
-            <img id="hero-img" src="images/rivers2.jpg" alt="People enjoying white water rafting">
+    <head>
+        <meta charset="utf-8" />
+        <title>contentus</title>
+        <style>
+            form {
+                /* Just to center the form on the page */
+                margin: 0 auto;
+                width: 400px;
+                /* To see the outline of the form */
+                padding: 1em;
+                border: 1px solid #fa0909;
+                border-radius: 1em;
+            }
+    
+            ul {
+                list-style: none;
+                padding: 0;
+                margin: 0;
+            }
+    
+            form li + li {
+                margin-top: 1em;
+            }
+    
+            label {
+                /* To make sure that all labels have the same size and are properly aligned */
+                display: inline-block;
+                width: 90px;
+                text-align: right;
+            }
+    
+            input,
+            textarea {
+                /* To make sure that all text fields have the same font settings By default, textareas have a monospace font */
+                font: 1em sans-serif;
+                /* To give the same size to all text fields */
+                width: 300px;
+                box-sizing: border-box; /* To harmonize the look & feel of text field border */
+                border: 1px solid #315244;
+            }
+    
+            input:focus,
+            textarea:focus {
+                /* To give a little highlight on active elements */
+                border-color: #000;
+            }
+    
+            textarea {
+                /* To properly align multiline text fields with their labels */
+                vertical-align: top;
+                /* To give enough room to type some text */
+                height: 5em;
+            }
+    
+            .button {
+                /* To position the buttons to the same position of the text fields */
+                padding-left: 90px;
+                /* same size as the label elements */
+            }
+    
+            button {
+                /* This extra margin represent roughly the same space as the space between the labels and their text fields */
+                margin-left: 0.5em;
+            }
+        </style>
+    </head>
+<form action="/my-handling-form-page" method="post">
+    <ul>
+      <li>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="user_name" />
+      </li>
+      <li>
+        <label for="mail">Email:</label>
+        <input type="email" id="mail" name="user_email" />
+      </li>
+      <li>
+        <label for="msg">Message:</label>
+        <textarea id="msg" name="user_message"></textarea>
+      </li>
+    </ul>
+  </form>
+  <div id="feedback"></div>
+  <footer>
+    <p>Dry Oar &copy; 20XX - Your First and Last Name Here</p>
+    <p><a href="site-plan-rafting.html">Site Plan</a></p>
+        <p><a href="contactus.html">Contact Us</a></p>
+    <div class="social">
+        <a href="https://facebook.com">
+            <img src="images/facebook.png" alt="fb icon">
+        </a>
+        <a href="https://twitter.com">
+            <img src="images/twitter.png" alt="twitter icon">
+        </a>
+        <a href="https://instagram.com">
+            <img src="images/instagram.png" alt="instagram icon">
+            </a>
         </div>
-        <section id="hero-msg">
-            <h1 class="home-title">Main Fork of the Salmon River, Idaho</h1>
-            <h4>Make Memories with Dry Oar </h4>
-            </div>
-        </section>
-        <main class="home-grid">
-            <section class="rivers-card">
-                <p>Nestled deep in the Frank Church Wilderness of No Return winds the Salmon river. The Salmon was given the nickname long ago as the River of No Return by the people living near it because of the number of folks that came to visit and fell so in love with the rugged beauty of the river that they never left.</p>
-                <p>Herds of elk and deer graze on the hillsides around the river and bear and bighorn sheep are also commonly sighted. The river corridor is also lined with awe inspiring ponderosa pine which tower over the sandy beaches in the campsites and provide shelter from sun or rain when needed.</p>
-                <p>Let's not forget the rapids! They range from class I-IV. The Salmon is one of the longest undammed rivers in the United States. As a free flowing river the water is higher, faster, and colder in the early summer and lower, slower, and warmer in the late summer. There are good rapids all summer...but families with children who like to swim tend to appreciate the late summer's slower, warmer water more.</p>
-            </section>
-            <section class="Blog">
-                <p>Blog</p>
-                <p>Highlights from the past season</p>
-                <p>What an incredible season we have had. We celebrated our 50th year of running trips down the Grand Canyon. This year we ran 36 trips down the Grand Canyon introducing over 800 people to one of our favorite places on earth. We trained 4 new guides and welcomed them to our family. The season started off with some chilly weather in the early season, but our guests braved the cold and loved every minute of their trip (show pictures). Later the temperatures soared reaching highs of 120 F in the Grand canyon and 95 on the Salmon. We didn't have any trouble getting people in the water at those temperatures.</p>
-
-               
-                
-            </section>
-            <section class="rapids-card">
-                
-    
-            </section>
-    
-    <footer>
-        <p>Dry Oar &copy; 20XX - Your First and Last Name Here</p>
-        <p><a href="site-plan-rafting.html">Site Plan</a></p>
-            <p><a href="contactus.html">Contact Us</a></p>
-        <div class="social">
-            <a href="https://facebook.com">
-                <img src="images/facebook.png" alt="fb icon">
-            </a>
-            <a href="https://twitter.com">
-                <img src="images/twitter.png" alt="twitter icon">
-            </a>
-            <a href="https://instagram.com">
-                <img src="images/instagram.png" alt="instagram icon">
-                </a>
-            </div>
-    </main>
-    </div>
-    </body>
+</main>
+</div>
+</body>
 </main>
